@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/pliu/not_work/udemy/game dev/Block Breaker/Assets/Scripts",
+      "file_exclude_patterns":
+      [
+        "*.dll",
+        "*.meta"
+      ]
+		}
+	]
+}
