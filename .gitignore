@@ -1,43 +1,43 @@
  #For Mac developers
  # Unity generated #
  # =============== #
- Temp/
+ /Temp/
  obj/
  Build
  Library/
 
 
-     # ===================================== #
-     # Visual Studio / MonoDevelop generated #
-     # ===================================== #
-     ExportedObj/
-     *.svd
-     *.userprefs
-     *.csproj
-     *.pidb
-     *.suo
-     *.sln
-     *.user
-     *.unityproj
-     *.booproj
-     *.orig
-     *.app
-     *.exe
-     *.*_data
+ # ===================================== #
+ # Visual Studio / MonoDevelop generated #
+ # ===================================== #
+ ExportedObj/
+ *.svd
+ *.userprefs
+ *.csproj
+ *.pidb
+ *.suo
+ *.sln
+ *.user
+ *.unityproj
+ *.booproj
+ *.orig
+ *.app
+ *.exe
+ *.*_data
 
-     Build/iOS
-     Build/android
+ Build/iOS
+ Build/android
 
-     *.[od]
+ *.[od]
 
-     # ============ #
-     # OS generated #
-     # ============ #
-     .DS_Store
-     .DS_Store?
-     ._*
-     .Spotlight-V100
-     .Trashes
-     Icon?
-     ehthumbs.db
-     Thumbs.db
+ # ============ #
+ # OS generated #
+ # ============ #
+ .DS_Store
+ .DS_Store?
+ ._*
+ .Spotlight-V100
+ .Trashes
+ Icon?
+ ehthumbs.db
+ Thumbs.db
