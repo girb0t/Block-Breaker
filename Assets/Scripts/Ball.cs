@@ -10,7 +10,13 @@ public class Ball : MonoBehaviour {
     Debug.Log("ball start");
     paddle = GameObject.FindObjectOfType<Paddle>();
     paddleToBallVector = this.transform.position - paddle.transform.position;
-	}
+  }
+
+  void OnCollisionEnter2D(Collision2D coll) {
+    if (hasStarted) {
+      audio.Play();
+    }
+  }
 
 	// Update is called once per frame
 	void Update () {

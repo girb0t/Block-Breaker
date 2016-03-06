@@ -13,6 +13,7 @@ public class LevelManager : MonoBehaviour {
 	}
 
   public void LoadNextLevel() {
+    // Level 2 not loading after Level 1 victory. Investigate.
     Application.LoadLevel(Application.loadedLevel + 1);
   }
 
