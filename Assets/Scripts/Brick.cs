@@ -16,12 +16,17 @@ public class Brick : MonoBehaviour {
   }
 
   void OnCollisionEnter2D(Collision2D coll) {
-    // Destroy(gameObject);
+    bool isBreakable = this.tag == "Breakable";
+    if (isBreakable) {
+      HandleHits();
+    }
+  }
+
+  void HandleHits() {
     timesHit++;
     int maxHits = hitSprites.Length + 1;
     if (timesHit >= maxHits) {
       Destroy(gameObject);
-      // SimulateWin();
     } else {
       LoadSprites();
     }
